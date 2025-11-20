@@ -1,6 +1,5 @@
 grade = int(input("Enter your grade: "))
 
-
 if grade >= 8 or grade <= 10:
     print("A")
 elif grade >= 5 or grade <= 7:
