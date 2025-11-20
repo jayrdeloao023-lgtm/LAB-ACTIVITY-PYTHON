@@ -7,7 +7,7 @@ window.title("Personal Information Form")
 window.geometry("400x500")
 window.config(bg="lightblue")
 
-# ---------- Functions ----------
+
 def submit_form():
     name = entry_name.get()
     age = entry_age.get()
@@ -36,7 +36,7 @@ def submit_form():
         )
         messagebox.showinfo("Form Submitted", info)
 
-# ---------- Widgets ----------
+
 tk.Label(window, text="Personal Information Form", font=("Arial", 16, "bold"), bg="lightblue").pack(pady=10)
 
 # Frame for inputs
